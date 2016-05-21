@@ -1,0 +1,298 @@
+/*
+    Theme Name: Vancouver Robotics Club v1
+    Theme URI: http://www.vancouverroboticsclub.org/
+    Description: Theme
+    Version: 1.0
+    Author: Bob Cook
+    Author URI: http://www.bobandeileen.com
+    
+    Copyright (c) 2011 Bob Cook
+*/
+
+
+*
+{
+    margin:  0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+a img
+{
+    border: 0px;
+}
+
+body 
+{
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+#sitecontent
+{
+    background: #f1f1f1 url(images/vrc_background.gif) repeat-y;
+    margin: 0 auto 0 auto;
+    min-height: 50px;
+    overflow: hidden;
+   	width: 950px;
+}
+
+/* main body content */
+
+#content
+{
+	/* border: 1px solid #0f0; */
+    margin: 0 50px 0 50px;
+    text-align: left;
+    width: 850px;
+}
+
+.entry
+{
+    border-top: 1px solid #000094;
+    color: #333;
+    font-family: Georgia,Palatino,"Times New Roman",Serif;
+    font-size: small;
+    margin: 20px 0 20px 0;
+    padding: 0 0 0 0;
+}
+
+.entry a
+{
+    color: #00a;
+    text-decoration: none;
+}
+
+.entry a:hover
+{
+    color: #00a;
+    text-decoration: underline;
+}
+
+/*
+.entry img
+{
+    border: 1px solid #ccc;
+    float: left;
+    padding: 2px 10px 2px 10px;
+    position: relative;
+}
+*/
+
+.entry h1
+{
+    color: #333;
+    font-family: Tahoma,Ariel,Helvetica,Sans-Serif;
+    font-size: 20px;
+    margin: 10px 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.entry h2
+{
+    color: #333;
+    font-family: Tahoma,Ariel,Helvetica,Sans-Serif;
+    font-size: 18px;
+    margin: 10px 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.entry h2 a
+{
+    color: #00a;
+    text-decoration: none;
+}
+
+.entry h2 a:hover
+{
+    color: #00a;
+    text-decoration: none;
+}
+
+.entry h3
+{
+    color: #333;
+    font-family: Tahoma,Ariel,Helvetica,Sans-Serif;
+    font-size: 14px;
+    margin: 10px 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.entry p
+{
+    color: #555;
+    margin: 10px 10px 0 10px;
+    font-family: Times-Roman,Serif;
+    font-size: 15px;
+}
+
+.entry ol, .entry ul
+{
+    color: #555;
+    font-family: Times-Roman,Serif;
+    font-size: 15px;
+    list-style-position: outside;
+    margin: 10px 20px 0 20px;
+}
+
+.entry li
+{
+    color: #555;
+    font-family: Times-Roman,Serif;
+    font-size: 15px;
+    margin: 5px 20px 0 20px;
+}
+
+.entry img
+{
+    padding: 10px 20px 5px 20px;
+}
+
+.entry table
+{
+    color: #555;
+    font-family: Times-Roman,Serif;
+    font-size: 15px;
+    margin: 10px 20px 0 20px;
+}
+
+.entry table td
+{
+    border: 1px solid #bbb;
+    padding: 2px 5px 2px 5px;
+}
+
+.entry_author
+{
+    color: #333;
+    font-family: Verdana,Helvetica,Ariel,Sans-Serif;
+    font-size: x-small;
+    font-style: italic; 
+}
+
+.entry_meta
+{
+    border-top: 1px solid #ddd;
+    color: #333;
+    font-family: Verdana,Helvetica,Ariel,Sans-Serif;
+    font-size: small;
+    margin: 10px 0 0 0;
+    padding: 0 0 0 0;
+    text-align: left;
+}
+
+.comments
+{
+    color: #333;
+    font-family: Georgia,Palatino,"Times New Roman",Serif;
+    font-size: small;
+    margin: 20px 0 20px 0;
+}
+
+.comments h3
+{
+    border-bottom: 1px solid #aaa;
+    font-family: Verdana,Helvetica,Ariel,Sans-Serif;
+    font-size: large;
+}
+
+.comments a
+{
+    color: #00a;
+}
+
+.comments a:hover
+{
+    color: #00a;
+}
+
+.comments p
+{
+    color: #333;
+    font-family: Georgia,Palatino,"Times New Roman",Serif;
+    font-size: small;
+    margin: 10px 10px 10px 10px;
+}
+
+.comments ol
+{
+    margin: 20px 0 20px 0;
+}
+
+.comments li
+{
+    margin: 20px 0 20px 0;
+}
+
+.commentmetadata
+{
+    font-size: small;
+}
+
+.commentlist
+{
+    padding-left: 20px;
+}
+
+#more_entries
+{
+    color: #fff;
+    font-family: Verdana,Helvetica,Ariel,Sans-Serif;
+    font-size: small;
+    margin: 0 50px 20px 50px;
+    padding: 0 0 0 0;
+}
+
+#commentform
+{
+    margin-top: 20px;
+}
+
+/* header */
+
+#siteheader
+{
+	background: #f1f1f1 url(images/vrc_header.jpg) no-repeat;
+	/* border: 1px solid #0f0; */
+    height: auto !important;
+	height: 200px;
+	margin: 0 auto 0 auto;
+    min-height: 200px;
+    overflow: hidden;
+    text-align: center;
+	width: 950px;
+}
+
+/* footer */
+
+#sitefooter
+{
+    background: #f1f1f1 url(images/vrc_footer.gif) no-repeat;
+    height: 75px;
+    margin: 0 auto 0 auto;
+    padding: 50px 0 0 0;
+    width: 950px;
+}
+
+#sitefooter p
+{
+    color: #777;
+    font-family: Verdana,Helvetica,Ariel,Sans-Serif;
+    font-size: x-small;
+    margin: 0 50px 0 50px;
+    padding: 0 0 0 0;
+    text-align: center;
+}
+
+#sitefooter p a
+{
+    color: #00a;
+    text-decoration: none;
+}
+
+#sitefooter p a:hover
+{
+    color: #00a;
+    text-decoration: underline;
+}
+
+
